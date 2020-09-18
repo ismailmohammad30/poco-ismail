@@ -26,3 +26,10 @@ h1{
     width: 350px;
     height: 220px;
 }
+h3{
+    margin-left: 6em;
+    margin-top: -1.5em;
+}
+a{
+    text-decoration: none;
+}
