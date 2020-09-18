@@ -1,7 +1,7 @@
 ul li{
     display: inline;
     list-style-type: none;
-    margin: 40px;
+    margin: 35px;
 }
 .sidebar {
     display: block;
@@ -9,4 +9,9 @@ ul li{
 }
 #main-pic{
     width: 800px;
+}
+.sidebar2{
+    display: block;
+    float: right;
+    margin-right: 3em;
 }
