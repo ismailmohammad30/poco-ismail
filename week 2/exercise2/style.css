@@ -3,3 +3,10 @@ ul li{
     list-style-type: none;
     margin: 40px;
 }
+.sidebar {
+    display: block;
+    float: right;
+}
+#main-pic{
+    width: 800px;
+}
