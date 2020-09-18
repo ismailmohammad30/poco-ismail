@@ -15,3 +15,14 @@ ul li{
     float: right;
     margin-right: 3em;
 }
+h1{
+    font-size: 25px;
+}
+.sidebar3{
+    display: block;
+    margin-right: 3em;
+}
+#pic1 {
+    width: 350px;
+    height: 220px;
+}
