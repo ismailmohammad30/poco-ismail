@@ -33,3 +33,27 @@ h3{
 a{
     text-decoration: none;
 }
+.schweiz h1 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:0em;
+    width: 12em;
+    font-size: 60px;
+}
+.schweiz p{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:0em;
+    width: 36em;
+    font-size: 20px;
+    font-family: "Noto Serif",Times New Roman,serif;
+
+}
+.schweiz img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 800px;
+    height:600px;
+
+}
