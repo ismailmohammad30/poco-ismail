@@ -57,3 +57,26 @@ a{
     height:600px;
 
 }
+footer{
+    background-color: rgb(25, 1, 65);
+    margin-top: 18em;
+}
+/* table{
+    display: block;
+    text-align: center;
+}
+table tr {
+    color: white;
+    display: block;
+    text-align: center;
+} */
+h4{
+    color: white;
+    margin-top: -2em;
+    margin-left: 1em;
+}
+.ul1{
+    color:yellowgreen;
+    display: inline;
+    margin: 20px;
+}
