@@ -1,0 +1,59 @@
+
+body {
+    background-color: grey;
+    /*
+    display: flex;
+    flex-direction: column;
+    */
+    display: grid;
+    grid-template-rows: auto auto 1fr;
+
+    margin: 0;
+    min-height: 100vh;
+}
+header {
+    background-color: red;}
+    /* small device
+@media (max-width:800px){
+    body{
+        background-color: blue
+
+    }
+    header{
+        background-color: silver;
+    }
+}
+
+@media(max-width:1000px){
+
+}
+} */
+main {
+    background-color: green;
+    display: grid;
+    min-height: 50vh;
+    grid-auto-columns: 200px;
+    /* height: 400px; */
+     /*
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    */
+}
+article {
+    background-color: yellow;
+    border: 1px solid pink;
+    /* display: grid; */
+    
+;
+    /*
+    flex: 1 0 33%;
+    */
+}
+footer {
+    background-color: blue;
+    height: 30vh;
+    width: 100%;
+
+}
