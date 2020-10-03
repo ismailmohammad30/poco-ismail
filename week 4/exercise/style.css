@@ -1,0 +1,25 @@
+header{
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 15px;
+}
+main{
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns:repeat( auto-f          
+    grid-column-gap: 5px;
+    
+    
+}
+section{
+    padding: 15px;
+    background: black;
+    color: white;
+    margin: 5px 0 5px 5px;
+    border-radius: 8px;
+}
+@media screen and (max-width:1218px) and(min-width:920px){
+    section:last-child{
+    grid-columns:auto/span 3;
+    }
+}

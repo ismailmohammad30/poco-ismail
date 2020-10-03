@@ -2,7 +2,7 @@
 body {
     background-color:lightblue;
 
-    display: grid;
+    /* display: grid; */
 
     margin: 0;
     min-height: 80vh;
@@ -19,13 +19,21 @@ header {
 
 }    
 }
-main {
+ body main {
     background-color:red;
+    
 
 }
 section {
+    display: grid;
+    grid-template-columns: repeat(3,40%);
     background-color:lightblue;
 
+}
+img{
+    border: 1px solid black;
+    width: 150px;
+    background-color: black;
 }
 
 footer {

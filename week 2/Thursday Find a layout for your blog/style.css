@@ -17,7 +17,6 @@ margin:20px;
 
 }
 main {
-    width: 1000px;
     display:flex;
     justify-content: space-between;
 }
@@ -51,15 +50,21 @@ display: inline-block;
     float: left;
     width: 5;
 }
+main{
+    display: grid;
+    grid-template-columns: repeat(2,40%);
+}
 .daily{
+    /* display: grid;
+    grid-auto-columns: 30% 30%; */
     
-    float: left;
-    width: 40%;
-    justify-content:space-between;
-    margin-left: 6em;
+    /* float: left; */
+    width: 400px;
+  
+    /*margin-left: 6em; */
 }
 .daily img{
-    width: 400px;
+    width: 300px;
 
 }
 p{

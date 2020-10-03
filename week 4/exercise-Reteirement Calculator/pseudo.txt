@@ -1,0 +1,29 @@
+input: Age,the age of the retirement.
+prossces:calc the years
+output:years left for retirement and the years
+of retirement.
+================================================
+Edge cases/invaild cases
+==============
+2,2= false 
+-20=false
+2 3 =false
+64 =
+@34 = false
+====================
+costraints
+==========
+possitve numbers
+max 2 digits 
+=======================================================
+START 
+step 1 :ipout your age and your retirement age max 2 digits and save them
+step 2 :check the input if possitve numbers
+step 3 :calc the retirement age - the age and save it as total var
+step 4 :calc the Total plus the current year and save it as retirement year.
+step 5 : if total is possitve you have total years left to be retired in yearof retirement
+         elesIf totla is negative you have been in - total years in retirement since year of 
+         retirement.
+         eles equal congratulation
+stp  6 : output the total and the retirement year.
+END
