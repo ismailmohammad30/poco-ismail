@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HelloWorld</title>
+</head>
+<body>
+    <form method="get" action="javascript:void()">
+        <label>
+          <strong>Language:</strong> 
+          <select name="language" id="language">
+            <option>English</option>
+            <option>French</option>
+            <option>German</option>
+            <option>Spanish</option>
+            <option>Arabic</option>
+          </select>
+        </label>
+        <input type="button" onclick="sayHello(this.form.language.options[this.form.language.selectedIndex].value);" value="Say Hello" />
+      </form>
+      
+      
+      
+      
+      
+    <script src="helloWorld.js"></script>
+</body>
+</html>
