@@ -1,0 +1,37 @@
+body{
+    background-color:white;
+}
+h1{
+    font-size: 40px;
+    text-align: center;
+
+}
+#form{
+    display: flex;
+    justify-content: space-around;
+}
+#button{
+    display: flex;
+    justify-content: space-around;
+  
+}
+#add{
+    width: 130px;
+    height: 30px;
+    background-color: white;
+    border: 1px solid black;
+   
+   
+}
+#remove{
+    width: 130px;
+    height: 30px;
+    background-color: red;
+    color: white;
+    
+
+}
+#results{
+   display: flex;
+
+}
