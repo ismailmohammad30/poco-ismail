@@ -1,0 +1,26 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    text-align: center;
+
+}
+body{
+    background: linear-gradient();
+
+}
+h1{
+    letter-spacing: 10pt;
+    text-transform: uppercase;
+    font-size: 6rem; /* 2*10px*/
+}
+
+h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    letter-spacing: 10pt;
+
+    
+}
+p{
+
+}
