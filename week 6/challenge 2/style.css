@@ -1,0 +1,36 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('weather.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+section{
+    border-radius: 50px;
+    background: rgb(238, 234, 234);
+    padding: 3%;
+    text-align: center;
+}
+select{
+    color: white;
+    padding: 8px 12px;
+    background-color: lightskyblue;
+    border-color: #dddddd;
+    cursor: pointer;
+    border-radius: 5px;
+}
+button{
+
+    padding: 9px 28px;
+    color:white;
+    background-color:lightskyblue;
+    border-color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+
+}
