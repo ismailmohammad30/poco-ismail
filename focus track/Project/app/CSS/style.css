@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway');
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:whitesmoke;
+    color: black;
+}
+.navbar .logo{
+    width:110px;
+    margin-left: 1rem;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+.app-title{
+    font-size: 1.5rem;
+    margin: .5rem;
+}
+.navbar-links ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.navbar-links ul li {
+    list-style:none;
+}
+.navbar-links li a {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    color: black;
+    padding: 1rem;
+    display: block;
+}
+.navbar-links li:hover {
+    background-color: green;
+}
+.toggle-button{
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+.toggle-button .bar {
+    height:3px ;
+    width: 100%;
+    background-color:black;
+    border-radius: 10px;
+
+}
+.video {
+    overflow: hidden;
+    
+  }
+  .video video{
+      width: 100%;
+  }
+  section #About {
+      text-align: center;
+      margin: 0 7px 0 7px;
+
+      
+  }
+  .size{
+    font-family: cursive;
+    text-align: center;
+    margin: .5em;
+  }
+#SM{
+    background-color:white;
+    margin: .1em;
+}
+
+#SM h1{
+    font-weight: lighter;
+    font-size: 50px;
+    color:green;
+    text-align: center;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#SM p {
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    font-weight: lighter;
+    font-size: 30px;
+    color:black;
+    text-align: center;
+}
+.media ul{
+    display: flex; 
+    justify-content: center;
+    /* justify-content: space-between;  */
+
+}
+.media ul li {
+    list-style: none;
+    display: flex;
+    
+    
+}
+.media ul li a{
+   position: relative;
+   width: 60px;
+   height: 60px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background: rgb(37, 5, 5);
+   margin: 0px 10px 10px 0px;
+   text-decoration: none;
+   font-size: 40px;
+   border-radius: 50%;
+   color:#e2e2e2;
+   box-shadow: inset -1px -1px 2px rgba(0,0,0,0,2),
+               2px 2px 5px rgba(0,0,0,0,2);
+    transition: 0.5s;   
+}
+.media ul li a:hover{
+    color: #999;
+    transform: translateY(-20px);
+}
+footer{
+    /* position: fixed; */
+    bottom: 0px;
+    width: 100%;
+    background: whitesmoke;
+  }
+  .main-content{
+    display: flex;
+  }
+  .main-content .box{
+    flex-basis: 50%;
+    padding: 10px 20px;
+  }
+  .box h2{
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  .box .content{
+    margin: 20px 0 0 0;
+    position: relative;
+  }
+  .box .content:before{
+    position: absolute;
+    content: '';
+    top: -10px;
+    height: 2px;
+    width: 100%;
+    background: #1a1a1a;
+  }
+  .box .content:after{
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 15%;
+    background: #f12020;
+    top: -10px;
+  }
+  .left .content p{
+    text-align: justify;
+  }
+  .left .content .social{
+    margin: 20px 0 0 0;
+  }
+  .left .content .social a{
+    padding: 0 2px;
+  }
+  .left .content .social a span{
+    height: 40px;
+    width: 40px;
+    background: #1a1a1a;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: 0.3s;
+  }
+  .left .content .social a span:hover{
+    background: #f12020;
+  }
+  /* .center .content .fas{
+    font-size: 1.4375rem;
+    background: #1a1a1a;
+    height: 45px;
+    width: 45px;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 50%;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+  .center .content .fas:hover{
+    background: #f12020;
+  }
+  .center .content .text{
+    font-size: 1.0625rem;
+    font-weight: 500;
+    padding-left: 10px;
+  }
+  .center .content .phone{
+    margin: 15px 0;
+  } */
+  .right form .text{
+    font-size: 1.0625rem;
+    margin-bottom: 2px;
+    color: #656565;
+  }
+  .right form .msg{
+    margin-top: 10px;
+  }
+  .right form input, .right form .msgForm{
+    width: 100%;
+    font-size: 1.0625rem;
+    background: white;
+    padding-left: 10px;
+    border: 1px solid #222222;
+  }
+  .right form input:focus,
+  .right form .msgForm:focus{
+    outline-color: #3498db;
+  }
+  .right form input{
+    height: 35px;
+  }
+  .right form .btn{
+    margin-top: 10px;
+  }
+  .right form .btn button{
+    height: 40px;
+    width: 60px;
+    border: none;
+    outline: none;
+    background:silver;
+    font-size: 1.0625rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: .3s;
+  }
+  .right form .btn button:hover{
+    background:green;
+  }
+  .bottom center{
+    padding: 5px;
+    font-size: 0.9375rem;
+    background: #151515;
+  }
+  .bottom center span{
+    color: #656565;
+  }
+  .bottom center a{
+    color: #f12020;
+    text-decoration: none;
+  }
+  .bottom center a:hover{
+    text-decoration: underline;
+  }
+  
+  
+/* footer{
+    bottom: 0px;
+    width: 100%;
+    background: whitesmoke;
+}
+.main-con{
+    display: flex;
+  
+}
+.left h3{
+    margin:10px 0 0 20px ;
+}
+.left .General{
+    margin: 20px 0 0 0;
+}
+
+.main-con .left .mid .right {
+    /* flex-basis: 50%;
+    padding: 10px 20px;   */
+
+
+@media (max-width :600px){
+    .toggle-button{
+        display: flex;
+    }
+    .navbar-links{
+        display: none;
+        width: 100%;
+        
+    }
+    .navbar{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .navbar-links ul{
+        width: 100%;
+        flex-direction: column;
+    }
+    .navbar-links li {
+        text-align: center;
+    }
+    .navbar-links li a {
+        padding: .5rem 1rem;
+    }
+    .navbar-links.active{
+        display: flex;
+    }
+   
+}
+@media screen and (max-width: 900px) {
+  footer{
+    position: relative;
+    bottom: 0px;
+  }
+  .main-content{
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .main-content .box{
+    margin: 5px 0;
+  }
+
+}
+
+  
