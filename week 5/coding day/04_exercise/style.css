@@ -1,0 +1,52 @@
+body{
+    background: rgba(0, 0, 0, 0.795);
+    font-family: sans-serif;
+}
+h1{
+    font-size: 14px;
+    color: white;
+}
+h2{
+    font-family: monospace;
+    color: white;
+}
+p{
+    font-family: monospace;
+    color: white;
+}
+
+ img {
+    width: 250px;
+    height: 350px;
+}
+.test {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.test > div{
+    background: rgba(134, 195, 224, 0.712);
+    border: 1px solid rgba(0, 0, 0, 0.288);
+    border-radius: 3px 3px 3px 3px ;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5px 10px 10px 10px ;
+    align-items: center;
+}
+ button {
+    background: rgba(0, 0, 0, 0.795);
+    width: 100px;
+    color: white;
+    margin-bottom: 5px;
+    background: rgba(255, 255, 255, 0.699);
+    color:rgba(0, 0, 0, 0.795) ;
+    border-radius: 3px 3px 3px 3px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+button:hover{
+    background: rgba(0, 0, 0, 0.795);
+    color: white;
+}
